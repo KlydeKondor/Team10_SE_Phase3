@@ -129,3 +129,9 @@ def footballGame(request):
         "end_5": "9:00 PM",
         "comment": "Choose this slot"
     })
+
+def createEvent(request):
+    return render(request, "templates/CreateEvent.html")
+
+def validateEvent(request):
+    return render(request, "templates/ValidateEvent.html")

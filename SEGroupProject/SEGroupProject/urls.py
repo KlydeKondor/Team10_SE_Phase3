@@ -26,5 +26,6 @@ urlpatterns = [
     path('displayEvents/diyWednesday', views.diywednesday),
     path('displayEvents/5kRun', views.fivekrun),
     path('displayEvents/potluck', views.potluck),
-
+    path('displayEvents/createEvent', views.createEvent),
+    path('displayEvents/createEvent/validateEvent', views.validateEvent),
 ]
