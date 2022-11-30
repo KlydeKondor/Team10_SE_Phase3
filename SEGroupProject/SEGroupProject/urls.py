@@ -28,4 +28,5 @@ urlpatterns = [
     path('displayEvents/potluck', views.potluck),
     path('displayEvents/createEvent', views.createEvent),
     path('displayEvents/createEvent/validateEvent', views.validateEvent),
+    path('displayEvents/contributors', views.contributors),
 ]

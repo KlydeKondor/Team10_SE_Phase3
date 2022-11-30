@@ -135,3 +135,6 @@ def createEvent(request):
 
 def validateEvent(request):
     return render(request, "templates/ValidateEvent.html")
+
+def contributors(request):
+    return render(request, "templates/contributors.html")
