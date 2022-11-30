@@ -20,11 +20,11 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('displayEvents', views.displayevents),
-    path('footballGame', views.footballGame),
+    path('displayEvents', views.displayEvents),
+    path('displayEvents/footballGame', views.footballGame),
     path('displayEvents/communityService', views.communityService),
-    path('displayEvents/diywednesday', views.diywednesday),
-    path('displayEvents/5krun', views.fivekrun),
+    path('displayEvents/diyWednesday', views.diywednesday),
+    path('displayEvents/5kRun', views.fivekrun),
     path('displayEvents/potluck', views.potluck),
 
 ]

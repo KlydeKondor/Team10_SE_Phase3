@@ -24,7 +24,7 @@ def home(request):
 
     #return render(request, "SEGroupProject/templates/home.html", {"day": day, "id": id, "projectname": projectname})
 
-def displayevents(request):
+def displayEvents(request):
     return render(request, "templates/timeslots.html", {
         "date_1": "11/24/2022",
         "date_2": "11/24/2022",
@@ -35,28 +35,106 @@ def displayevents(request):
     })
 
 
-def communityService():
-    return None
-
-
-def diywednesday():
-    return None
-
-
-def fivekrun():
-    return None
-
-
-def potluck():
-    return None
-
-
-def footballGame(request):
+def communityService(request):
     return render(request, "templates/timeslotinformation.html", {
         "date_1": "11/24/2022",
         "date_2": "11/25/2022",
         "date_3": "11/26/2022",
         "date_4": "11/27/2022",
         "date_5": "11/28/2022",
+        "start_1": "11:00 AM",
+        "end_1": "2:00 PM",
+        "start_2": "11:00 AM",
+        "end_2": "2:00 PM",
+        "start_3": "11:00 AM",
+        "end_3": "2:00 PM",
+        "start_4": "11:00 AM",
+        "end_4": "2:00 PM",
+        "start_5": "11:00 AM",
+        "end_5": "2:00 PM",
+        "comment": "Choose this slot"
+    })
+
+
+def diywednesday(request):
+    return render(request, "templates/timeslotinformation.html", {
+        "date_1": "08/31/2022",
+        "date_2": "09/28/2022",
+        "date_3": "10/26/2022",
+        "date_4": "11/30/2022",
+        "date_5": "12/28/2022",
+        "start_1": "11:00 AM",
+        "end_1": "2:00 PM",
+        "start_2": "11:00 AM",
+        "end_2": "2:00 PM",
+        "start_3": "11:00 AM",
+        "end_3": "2:00 PM",
+        "start_4": "11:00 AM",
+        "end_4": "2:00 PM",
+        "start_5": "11:00 AM",
+        "end_5": "2:00 PM",
+        "comment": "Choose this slot"
+    })
+
+
+def fivekrun(request):
+    return render(request, "templates/timeslotinformation.html", {
+        "date_1": "11/24/2022",
+        "date_2": "11/25/2022",
+        "date_3": "11/26/2022",
+        "date_4": "11/27/2022",
+        "date_5": "11/28/2022",
+        "start_1": "11:00 AM",
+        "end_1": "2:00 PM",
+        "start_2": "11:00 AM",
+        "end_2": "2:00 PM",
+        "start_3": "11:00 AM",
+        "end_3": "2:00 PM",
+        "start_4": "11:00 AM",
+        "end_4": "2:00 PM",
+        "start_5": "11:00 AM",
+        "end_5": "2:00 PM",
+        "comment": "Choose this slot"
+    })
+
+
+def potluck(request):
+    return render(request, "templates/timeslotinformation.html", {
+        "date_1": "11/24/2022",
+        "date_2": "11/25/2022",
+        "date_3": "11/26/2022",
+        "date_4": "11/27/2022",
+        "date_5": "11/28/2022",
+        "start_1": "11:00 AM",
+        "end_1": "2:00 PM",
+        "start_2": "11:00 AM",
+        "end_2": "2:00 PM",
+        "start_3": "11:00 AM",
+        "end_3": "2:00 PM",
+        "start_4": "11:00 AM",
+        "end_4": "2:00 PM",
+        "start_5": "11:00 AM",
+        "end_5": "2:00 PM",
+        "comment": "Choose this slot"
+    })
+
+
+def footballGame(request):
+    return render(request, "templates/timeslotinformation.html", {
+        "date_1": "08/13/2022",
+        "date_2": "09/10/2022",
+        "date_3": "10/15/2022",
+        "date_4": "11/26/2022",
+        "date_5": "12/10/2022",
+        "start_1": "6:00 PM",
+        "end_1": "9:00 PM",
+        "start_2": "6:00 PM",
+        "end_2": "9:00 PM",
+        "start_3": "2:00 PM",
+        "end_3": "5:00 PM",
+        "start_4": "2:00 PM",
+        "end_4": "5:00 PM",
+        "start_5": "6:00 PM",
+        "end_5": "9:00 PM",
         "comment": "Choose this slot"
     })
