@@ -102,19 +102,10 @@ def potluck(request):
     return render(request, "templates/timeslotinformation.html", {
         "date_1": "11/24/2022",
         "date_2": "11/25/2022",
-        "date_3": "11/26/2022",
-        "date_4": "11/27/2022",
-        "date_5": "11/28/2022",
         "start_1": "11:00 AM",
         "end_1": "2:00 PM",
         "start_2": "11:00 AM",
         "end_2": "2:00 PM",
-        "start_3": "11:00 AM",
-        "end_3": "2:00 PM",
-        "start_4": "11:00 AM",
-        "end_4": "2:00 PM",
-        "start_5": "11:00 AM",
-        "end_5": "2:00 PM",
         "comment": "Choose this slot"
     })
 
